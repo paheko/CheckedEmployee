@@ -239,10 +239,7 @@ namespace punto_venta
         private void clearTable()
         {
             usuarios = new List<Usuarios>();
-            while (dataGridView_Clientes.Rows.Count != 1)
-            {
-                dataGridView_Clientes.Rows.RemoveAt(0);
-            }
+            dataGridView_Clientes.Rows.Clear();
 
         }
         private void button1_Click_2(object sender, EventArgs e)

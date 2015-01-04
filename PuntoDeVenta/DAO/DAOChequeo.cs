@@ -43,7 +43,7 @@ namespace PuntoDeVenta.DAO
 
             //commands represent a query or a stored procedure
             SqlCeCommand cmd = conn.CreateCommand();
-            cmd.CommandText = "SELECT * FROM chequeo WHERE dia > '" + fecha1 + "' AND dia < '" + fecha2+"';";
+            cmd.CommandText = "SELECT * FROM chequeo WHERE dia >= '" + fecha1 + "' AND dia <= '" + fecha2+"';";
             SqlCeDataReader reader = cmd.ExecuteReader();
 
             while (reader.Read())

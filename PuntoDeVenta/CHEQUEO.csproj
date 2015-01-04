@@ -15,7 +15,7 @@
     <PublishUrl>C:\CHEQUEO\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateEnabled>false</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
@@ -26,7 +26,7 @@
     <ProductName>CHEQUEO</ProductName>
     <PublisherName>CCEO</PublisherName>
     <SuiteName>CCEO</SuiteName>
-    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationRevision>11</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -107,6 +107,7 @@
     <Compile Include="DAO\CodigoBarras.cs" />
     <Compile Include="DAO\DAOChequeo.cs" />
     <Compile Include="DAO\DAOClave_scaner.cs" />
+    <Compile Include="DAO\DAOCorreo.cs" />
     <Compile Include="DAO\DAOTipo_tiempo.cs" />
     <Compile Include="DAO\DAOTipo_usuario.cs" />
     <Compile Include="DAO\Validaciones.cs" />
@@ -117,6 +118,7 @@
       <DependentUpon>DB_localDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="DTO\chequeo.cs" />
+    <Compile Include="DTO\Correo.cs" />
     <Compile Include="DTO\dto_clave_scaner.cs" />
     <Compile Include="DTO\dto_tipo_tiempo.cs" />
     <Compile Include="DTO\dto_tipo_usuario.cs" />
