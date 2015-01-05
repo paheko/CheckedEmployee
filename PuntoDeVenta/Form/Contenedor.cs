@@ -195,7 +195,7 @@ namespace punto_venta
         {
             List<dto_clave_scaner> usuarios = new List<dto_clave_scaner>();
             List<chequeo>chequeos = new DAOChequeo().GetChequeo(string.Format("{0:yyyy-MM-dd}", Convert.ToDateTime(DateTime.Now)));
-            if(chequeos.Count!=0)
+            if(chequeos.Count%2!=0)
             {
                 MessageBox.Show("Hay usuarios que no hicieron la salida, el sistema realizará su chequeo con la hora actual.", "ADVERTENCIA", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 usuarios = UsuariosSinChecarSalida(chequeos);
@@ -232,7 +232,7 @@ namespace punto_venta
                 {
                     entrada++;
                 }
-                else if (new DAOTipo_tiempo().GetTipo_tiempo(obj.id_tipo_tiempo).tipo_tiempo.Equals("ENTRADA")) 
+                else if (new DAOTipo_tiempo().GetTipo_tiempo(obj.id_tipo_tiempo).tipo_tiempo.Equals("SALIDA")) 
                 {
                     salida++;
                 }

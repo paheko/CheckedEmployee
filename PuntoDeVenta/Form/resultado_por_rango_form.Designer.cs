@@ -155,7 +155,7 @@
             // filtrar_Button
             // 
             this.filtrar_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.filtrar_Button.Location = new System.Drawing.Point(576, 30);
+            this.filtrar_Button.Location = new System.Drawing.Point(576, 12);
             this.filtrar_Button.Name = "filtrar_Button";
             this.filtrar_Button.Size = new System.Drawing.Size(145, 45);
             this.filtrar_Button.TabIndex = 19;
@@ -166,7 +166,7 @@
             // crear_pdf_button
             // 
             this.crear_pdf_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.crear_pdf_button.Location = new System.Drawing.Point(727, 30);
+            this.crear_pdf_button.Location = new System.Drawing.Point(727, 12);
             this.crear_pdf_button.Name = "crear_pdf_button";
             this.crear_pdf_button.Size = new System.Drawing.Size(145, 45);
             this.crear_pdf_button.TabIndex = 20;

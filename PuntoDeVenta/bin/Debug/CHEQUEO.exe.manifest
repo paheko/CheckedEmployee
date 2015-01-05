@@ -48,14 +48,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CHEQUEO.exe" size="3988480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CHEQUEO.exe" size="4361216">
       <assemblyIdentity name="CHEQUEO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Ji7G3tXpWco16WwQSfSXcM++lnHaYUhDGyHY0XmQcv8=</dsig:DigestValue>
+        <dsig:DigestValue>HGFzxlZmPEsQ1+jnbZIbHD5c3J8L6PKYZqKxKvM50sA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -158,7 +158,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Nho034Oc9ZmxF2wlDyrpA5Z6GThokmF6kObMHxWF8F0=</dsig:DigestValue>
+      <dsig:DigestValue>W35M8LGEj1Y2irMx9mConTCG3E3AMS2bLxBAT7UdyzA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="LogoCceo.ico" size="370070">

@@ -102,7 +102,7 @@ namespace punto_venta
         private void Agregar_Clientes_Button_Click(object sender, EventArgs e)
         {
             string nombre = nombre_textbox.Text,contrasenia=contrasena_textbox.Text, privilegio= privilegios_combo.Text;
-            if (nombre.Equals(null) || contrasenia.Equals(null) || privilegio.Equals(null))
+            if (nombre.Equals("") || contrasenia.Equals("") || privilegio.Equals(""))
             {
                 MessageBox.Show("Te está faltando datos por llenar", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 RemarcarNombre();

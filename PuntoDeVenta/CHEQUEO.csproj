@@ -141,6 +141,12 @@
     <Compile Include="Form\Contenedor.designer.cs">
       <DependentUpon>Contenedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form\Enviar_pdf_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Enviar_pdf_form.designer.cs">
+      <DependentUpon>Enviar_pdf_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\Importar_Exportar_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\Contenedor.resx">
       <DependentUpon>Contenedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Enviar_pdf_form.resx">
+      <DependentUpon>Enviar_pdf_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\Importar_Exportar_form.resx">
       <DependentUpon>Importar_Exportar_form.cs</DependentUpon>

@@ -112,9 +112,9 @@ namespace PuntoDeVenta.DAO
                 MessageBox.Show("Problemas con la conexión, no se envió el correo electrónico.", "Correo no enviado", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        public void CrearCorreoYMandar(string direccion, Usuarios usuario) 
+        public void CrearCorreoYMandar(string direccion, string email) 
         {
-            if (AccesoInternet() && ObtenerCorreoPorDefault() != null)
+            if (AccesoInternet() && email != null)
             {
                 
                     try
@@ -122,23 +122,23 @@ namespace PuntoDeVenta.DAO
 
                         MailMessage mnsj = new MailMessage();
 
-                        mnsj.Subject = "Corte del día: " + string.Format("{0:yyyy-MM-dd HH:mm:ss}", Convert.ToDateTime(DateTime.Now));
+                        mnsj.Subject = "REPORTE DEL DIA: " + string.Format("{0:yyyy-MM-dd HH:mm:ss}", Convert.ToDateTime(DateTime.Now));
                         //Obtengo el correo que hayan configurado por default
-                        mnsj.To.Add(new MailAddress(ObtenerCorreoPorDefault().correo));
+                        mnsj.To.Add(new MailAddress(email));
 
-                        mnsj.From = new MailAddress("tu.corte@cceo.com.mx", "PUNTO DE VENTA CCEO");
+                        mnsj.From = new MailAddress("tu.corte@cceo.com.mx", "CHECADOR CCEO");
 
                         /* Si deseamos Adjuntar algún archivo*/
                         //mnsj.Attachments.Add(new Attachment("C:\\archivo.pdf"));
                         mnsj.Attachments.Add(new Attachment(direccion));
 
-                        mnsj.Body = " Corte realizadó por el usuario: " + usuario.usuario + " \nPUNTO DE VENTA CCEO";
+                        mnsj.Body = " Reporte realizado. \nCHECADOR CCEO";
 
                         /* Enviar */
                         MandarCorreo(mnsj);
 
 
-                        MessageBox.Show("Se ha enviado con éxito el correo con el corte adjunto.", "Correo enviado", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        MessageBox.Show("Se ha enviado con éxito el correo con el reporte.", "Correo enviado", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     }
                     catch (Exception ex)
                     {
@@ -148,7 +148,7 @@ namespace PuntoDeVenta.DAO
                     
                 
             }
-            else if (!AccesoInternet() && ObtenerCorreoPorDefault() != null)
+            else if (!AccesoInternet() && email != null)
             {
                 MessageBox.Show("Problemas con la conexión, no se envió el correo electrónico.", "Correo no enviado", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

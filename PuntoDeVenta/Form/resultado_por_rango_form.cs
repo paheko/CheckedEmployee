@@ -171,7 +171,8 @@ namespace punto_venta
                 PdfWriter write = PdfWriter.GetInstance(doc, new FileStream("c:\\PDF Generados\\Resultados " + fecha + ".pdf", FileMode.Create));
             }
             doc.Open();
-            string rutaimg = Path.Combine(Application.StartupPath, "Resources\\logo.png");
+            //string rutaimg = Path.Combine(Application.StartupPath, "Resources\\logo.png");
+            string rutaimg = " C:\\Users\\Francisco\\Documents\\CheckedEmployee\\PuntoDeVenta\\logo.png";
             iTextSharp.text.Image PNG = iTextSharp.text.Image.GetInstance(rutaimg);
             PNG.ScalePercent(25f);
             doc.Add(PNG);
@@ -203,6 +204,13 @@ namespace punto_venta
             doc.Add(table);
             doc.Close();
             System.Diagnostics.Process.Start("c:\\PDF Generados\\Resultados " + fecha + ".pdf");
+            if (MessageBox.Show("¿Desea enviar el reporte a un correo electronico?", "Alerta",
+        MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+        == DialogResult.Yes) 
+            {
+                enviar_pdf_form enviar = new enviar_pdf_form("c:\\PDF Generados\\Resultados " + fecha + ".pdf");
+                enviar.ShowDialog();
+            }
         }
     }
 }

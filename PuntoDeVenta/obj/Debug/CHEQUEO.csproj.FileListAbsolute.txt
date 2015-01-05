@@ -26,3 +26,32 @@ C:\Users\Francisco\OneDrive\Documentos\Sistema bueno\Con Actualizacion\1\Sistema
 C:\Users\Francisco\OneDrive\Documentos\Sistema bueno\Con Actualizacion\1\Sistema chequeo\PuntoDeVenta\PuntoDeVenta\obj\Debug\CHEQUEO.exe
 C:\Users\Francisco\OneDrive\Documentos\Sistema bueno\Con Actualizacion\1\Sistema chequeo\PuntoDeVenta\PuntoDeVenta\obj\Debug\CHEQUEO.pdb
 C:\Users\Francisco\OneDrive\Documentos\Sistema bueno\Con Actualizacion\1\Sistema chequeo\PuntoDeVenta\PuntoDeVenta\obj\Debug\punto_venta.resultado_por_rango_form.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\CHEQUEO.exe.config
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\CHEQUEO.exe
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\CHEQUEO.pdb
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\DB\DB_local.sdf
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\CHEQUEO.exe.manifest
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\CHEQUEO.application
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\CHEQUEO.exe
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\CHEQUEO.pdb
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\ExcelLibrary.dll
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\itextsharp.dll
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\itextsharp.pdfa.dll
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\itextsharp.xtra.dll
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\LibPrintTicket.dll
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\bin\Debug\OrnelasInput.dll
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\CHEQUEO.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.Chequeo_form.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.Chequeo_usuario_form.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.Contenedor.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.enviar_pdf_form.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.Importar_Exportar_form.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.login.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.Mostrar_codigo_form.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.Presentacion.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.resultado_por_rango_form.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\punto_venta.Usuarios_Form.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\CHEQUEO.Properties.Resources.resources
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\CHEQUEO.csproj.GenerateResource.Cache
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\CHEQUEO.exe.manifest
+C:\Users\Francisco\Documents\CheckedEmployee\PuntoDeVenta\obj\Debug\CHEQUEO.application
